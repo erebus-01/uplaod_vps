@@ -24,6 +24,7 @@ route.post("/upload", upload.single("data"), (req, res) => {
       err: "Da chon file upload dau ???"
     })
   }
+  res.redirect('/');
 })
 
 
